@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><img src="logo.jpeg" alt=""></div>
+  <!--search Box-->
+  <div class="search-box">
+    <input type="search" name="" id="" placeholder="Search Here....">
+  </div>
+  <!--icon--><!--boxicons.com-->
+  <div class="header-icon">
+    <i class="bx bx-search" id="search-icon"></i>
+    <i class="bx bx-cart-alt"></i>
+  </div>
+
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home" class="sections">
+        <h1>Welcome to Coffee Shop</h1>
+        <p>The best coffee in town</p>
+    </section>
+    
+    <!-- Menu Section -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our Menu</h2>
+        </div>
+        <!--container-->
+         <div class="products-container">
+            <div class="box">
+                <img src="espresso.jpg" alt="">
+                <h3>Espresso</h3>
+                <div class="content">
+                    <span>&#8377;120</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="cappuccino.jpg" alt="">
+                <h3>Cappuccino</h3>
+                <div class="content">
+                    <span>&#8377;190</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="latte.jpg" alt="">
+                <h3>Latte</h3>
+                <div class="content">
+                    <span>&#8377;200</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+    
+            <div class="box">
+                <img src="chocolate milk.jpg" alt="">
+                <h3>Chocolate Milk</h3>
+                <div class="content">
+                    <span>&#8377;230</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+         </div>
+        </section>
+    <!-- About Section -->
+    <section id="about" class="sectionn">
+        <h2>About Us</h2>
+        <p>Founded in 2024, we serve the best coffee in a cozy environment.</p>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <p>Email: sneha@coffeeshop.com</p>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" cols="50" rows="10"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30451.98564989163!2d78.44331519999999!3d17.4358528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1741357053617!5m2!1sen!2sin"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
